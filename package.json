@@ -1,0 +1,20 @@
+{
+  "name": "simple-odk-custom",
+  "version": "1.0.0",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "description": "Custom install of Simple-ODK",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "npm test"
+  },
+  "author": "Gregor MacLennan",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.12.2",
+    "simple-odk": "^1.1.1-dev",
+    "xtend": "^4.0.0"
+  }
+}

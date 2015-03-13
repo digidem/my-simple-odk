@@ -1,0 +1,43 @@
+{
+  "name": "Simple ODK",
+  "description": "Simple ODK server for receiving form submissions from ODK Collect and saving to an external storage provider",
+  "keywords": [
+    "github",
+    "odk",
+    "forms"
+  ],
+  "repository": "https://github.com/digidem/simple-odk-custom",
+  "env": {
+    "FORM_STORE": {
+        "description": "The storage backend to use for form submissions, one of `github`, `gist`, or `firebase`"
+    },
+    "GITHUB_USER": {
+        "description": "Github repo owner",
+        "required": false
+    },
+    "GITHUB_REPO": {
+        "description": "Github repo name",
+        "required": false
+    },
+    "FIREBASE_APP": {
+        "description": "Firebase app name",
+        "required": false
+    },
+    "GIST_ID": {
+        "description": "Gist ID (excluding the username)",
+        "required": false
+    },
+    "S3_BUCKET": {
+        "description": "S3 Bucket for storing any media attached to forms - required if you attach media",
+        "required": false
+    },
+    "S3_KEY": {
+        "description": "S3 Access Key ID, required if you want to save media",
+        "required": false
+    },
+    "S3_SECRET": {
+        "description": "S3 Secret Access Key, required if you want to save media",
+        "required": false
+    }
+  }
+}
