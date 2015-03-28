@@ -27,7 +27,7 @@ This is a simple roll-your-own server for receiving form submissions from ODK Co
     
 5. `npm start`
 
-That should be it, check by visiting http://localhost:8080/ and you should see `OK`
+That should be it, check by visiting [http://localhost:8080/](http://localhost:8080/) and you should see `OK`
 
 ## Deploy on Heroku
 
